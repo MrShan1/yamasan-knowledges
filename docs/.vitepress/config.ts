@@ -24,7 +24,13 @@ export default defineConfig({
     ],
 
     search: {
-      provider: 'local',
+      // provider: 'local',
+      provider: 'algolia',
+      options: {
+        appId: 'V8P6SMN9C9',
+        apiKey: 'f735e4926ae39d54403be885711c05b9',
+        indexName: 'dev_knowledges',
+      },
     },
 
     socialLinks: [
