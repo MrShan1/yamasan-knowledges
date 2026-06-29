@@ -4,14 +4,15 @@ export default defineConfig({
   title: '个人知识总结',
   description: '个人知识笔记与总结',
   lang: 'zh-CN',
-  base: '/yamasan-knowledges/',
+  // base: '/yamasan-knowledges/',
+  base: '/',
 
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
       {
         text: 'GitHub',
-        link: 'https://github.com/YOUR_USERNAME/yamasan-knowledges',
+        link: 'https://github.com/MrShan1/yamasan-knowledges',
       },
     ],
 
@@ -29,7 +30,7 @@ export default defineConfig({
     socialLinks: [
       {
         icon: 'github',
-        link: 'https://github.com/YOUR_USERNAME/yamasan-knowledges',
+        link: 'https://github.com/MrShan1/yamasan-knowledges',
       },
     ],
   },
